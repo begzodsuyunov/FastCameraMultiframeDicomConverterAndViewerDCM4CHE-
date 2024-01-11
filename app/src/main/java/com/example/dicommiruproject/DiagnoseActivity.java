@@ -2,7 +2,7 @@ package com.example.dicommiruproject;
 
 import static android.view.View.GONE;
 
-import static com.example.dicommiruproject.test.DicomConverter.createMultiFrameDicom;
+import static com.example.dicommiruproject.util.DicomConverter.createMultiFrameDicom;
 
 import androidx.appcompat.app.AppCompatActivity;
 
