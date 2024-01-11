@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Patient Information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient Information"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editTextPatientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient Name"/>
+
+        <EditText
+            android:id="@+id/editTextPatientId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient ID"/>
+
+        <!-- Gender -->
+        <RadioGroup
+            android:id="@+id/radioGroupSex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextPatientAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient Age"/>
+
+        <EditText
+            android:id="@+id/editTextPatientDob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient DoB"/>
+
+
+        <EditText
+            android:id="@+id/editTextPatientAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Patient Address"/>
+
+        <!-- Study Information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Study Information"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/editTextInstitutionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Institution Name"/>
+
+        <EditText
+            android:id="@+id/editTextManufacturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Manufacturer"/>
+
+        <EditText
+            android:id="@+id/editTextManufacturerModelName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Manufacturer Model Name"/>
+
+        <EditText
+            android:id="@+id/editTextReferringPhysicianName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Referring Physician Name"/>
+
+        <EditText
+            android:id="@+id/editTextStudyDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Study Date"/>
+
+        <EditText
+            android:id="@+id/editTextStudyDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Study Description"/>
+
+        <EditText
+            android:id="@+id/editTextStudyID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Study ID"/>
+
+        <EditText
+            android:id="@+id/editTextSeriesDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Series Date"/>
+
+    </LinearLayout>
+</ScrollView>
